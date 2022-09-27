@@ -14,15 +14,13 @@ function Background(props) {
 export default Background;
 
 const BackgroundContainer = styled.div`
-    position: relative;
-    top: 0;
-    left: 0;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 `;
 
 const BackgroundImage = styled.div`
-    position: absolute;
     top: 0;
     left: 0;
     width: 35%;
@@ -32,7 +30,7 @@ const BackgroundImage = styled.div`
 
     @media screen and (max-width: 500px) {
         background-image: url(${backgroundMobile});
-        height: 25%;
-        width: 100vw;
-    }
+        background-size: 100%;
+        width: 100%;
+        }
 `;

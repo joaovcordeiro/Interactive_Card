@@ -28,7 +28,7 @@ const BackCardContainer = styled.div`
 
     @media screen and (max-width: 500px) {
        top: -20px;
-       left: -18px;
+       left: 20px;
        scale: 0.55;
     }
 `
