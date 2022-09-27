@@ -153,8 +153,8 @@ const CardFormContainer = styled.div`
 
     @media screen and (max-width: 500px) {
         position: fixed;
-        left: 5%;
-        top: 35%;
+        left: 0;
+        top: 40%;
         button {
         height: 50px;
         }
