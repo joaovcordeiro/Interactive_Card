@@ -4,6 +4,7 @@ import Background from './components/Background';
 import FrontCard from './components/FrontCard';
 import BackCard from './components/BackCard';
 import Form from './components/Form';
+import Attribuition from './components/attribuition';
 
 function App() {
   const [name, setName] = useState('');
@@ -34,6 +35,7 @@ function App() {
         <FrontCard name={name} cardNumber={cardNumber} year={year} month={month}/>
         <BackCard cvc={cvc}/>
         <Form setters={setters} propsInfo={props}/>
+        <Attribuition/>
       </Background>
     </div>
   );
