@@ -27,10 +27,9 @@ const BackCardContainer = styled.div`
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
     @media screen and (max-width: 500px) {
-        position: absolute;
-       top: -20px;
+       top: 0;
        left: 20px;
-       scale: 0.55;
+       scale: 0.7;
     }
 `
 const CardCVC = styled.p`

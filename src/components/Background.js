@@ -30,7 +30,7 @@ const BackgroundImage = styled.div`
     @media screen and (max-width: 500px) {
         background-image: url(${backgroundMobile});
         background-size: 100%;
-        height: 30%;
+        height: 27%;
         width: 100%;
         align-items: center;
         }

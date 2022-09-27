@@ -152,7 +152,9 @@ const CardFormContainer = styled.div`
     justify-content: center;
 
     @media screen and (max-width: 500px) {
-        position: static;
+        position: fixed;
+        left: 5%;
+        top: 35%;
         button {
         height: 50px;
         }
@@ -204,6 +206,10 @@ const FormButton = styled.button`
     color: #fff;
     border-radius: 7px;
     cursor: pointer;
+
+    @media screen and (max-width: 500px) {
+        font-size: 18px;
+     }
 `;
 const DateContainer = styled.div`
     display: flex;
@@ -231,7 +237,12 @@ const Error = styled.p`
 const SucessIcon = styled.img`
     width: 55px;
     height: 55px;
-    margin-bottom: 35px;
+    margin-bottom: 45px;
+
+    @media screen and (max-width: 500px) {
+        width: 90px;
+        height: 90px;
+     }
 `;
 
 const SucessTittle = styled.h1`
@@ -239,6 +250,10 @@ const SucessTittle = styled.h1`
     margin-bottom: 20px;
     letter-spacing: 2px;
     word-spacing: 5px;
+
+    @media screen and (max-width: 500px) {
+        font-size: 30px;
+     }
 `;
 
 const SucessText = styled.p`
@@ -246,4 +261,8 @@ const SucessText = styled.p`
     font-size: 14px;
     margin-bottom: 45px;
     letter-spacing: 1.5px;
+
+    @media screen and (max-width: 500px) {
+        font-size: 18px;
+     }
 `;

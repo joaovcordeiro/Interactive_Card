@@ -46,9 +46,9 @@ const FrontCardContainer = styled.div`
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
     @media screen and (max-width: 500px) {
-        top: 6.8%;
+        top: 10%;
         left: -35px;
-        scale: 0.6;
+        scale: 0.7;
      }
 `
 const CardLogo = styled.img`
