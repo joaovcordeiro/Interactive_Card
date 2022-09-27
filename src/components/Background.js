@@ -22,6 +22,7 @@ const BackgroundContainer = styled.div`
 `;
 
 const BackgroundImage = styled.div`
+    position: absolute;
     width: 35%;
     height: 100%;
     background-image: url(${backgroundDesktop});

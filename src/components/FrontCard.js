@@ -46,7 +46,7 @@ const FrontCardContainer = styled.div`
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
     @media screen and (max-width: 500px) {
-        top: 10%;
+        top: 12%;
         left: -35px;
         scale: 0.7;
      }
