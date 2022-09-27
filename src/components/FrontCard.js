@@ -47,7 +47,7 @@ const FrontCardContainer = styled.div`
 
     @media screen and (max-width: 500px) {
         top: 6.8%;
-        left: -40px;
+        left: -35px;
         scale: 0.6;
      }
 `

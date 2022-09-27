@@ -18,11 +18,10 @@ const BackgroundContainer = styled.div`
     height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
 `;
 
 const BackgroundImage = styled.div`
-    top: 0;
-    left: 0;
     width: 35%;
     height: 100%;
     background-image: url(${backgroundDesktop});
@@ -31,6 +30,7 @@ const BackgroundImage = styled.div`
     @media screen and (max-width: 500px) {
         background-image: url(${backgroundMobile});
         background-size: 100%;
+        height: 30%;
         width: 100%;
         }
 `;

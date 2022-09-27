@@ -27,6 +27,7 @@ const BackCardContainer = styled.div`
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
     @media screen and (max-width: 500px) {
+        position: absolute;
        top: -20px;
        left: 20px;
        scale: 0.55;
