@@ -18,7 +18,7 @@ const BackgroundContainer = styled.div`
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    min-height: 300px;
 `;
 
 const BackgroundImage = styled.div`
@@ -32,5 +32,6 @@ const BackgroundImage = styled.div`
         background-size: 100%;
         height: 30%;
         width: 100%;
+        align-items: center;
         }
 `;
